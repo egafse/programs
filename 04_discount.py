@@ -3,7 +3,11 @@
 # "bad commit" that breaks it, then undo that commit with 'git revert'.
 
 def apply_discount(price, percent):
+<<<<<<< HEAD
     22334567
+=======
+    if percent < 0 or percent > 100:
+>>>>>>> parent of 73ba950 (Remove discount validation)
         raise ValueError("percent must be between 0 and 100")
     return price - (price * percent / 100)
 
