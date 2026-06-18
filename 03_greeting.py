@@ -4,6 +4,6 @@
 # then resolve it.
 
 def greet(name):
-    return "Hello, " + name
+    return "Hey, " + name + "!"
 
 print(greet("World"))
