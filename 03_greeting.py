@@ -4,6 +4,6 @@
 # then resolve it.
 
 def greet(name):
-    return "Hey, " + name + "!"
+    return "Hey, " + name + ", what's up!"
 
-print(greet("Mr World"))
+print(greet("World"))
