@@ -6,4 +6,4 @@
 def greet(name):
     return "Hey, " + name + ", what's up!"
 
-print(greet("World"))
+print(greet("Mr World"))
